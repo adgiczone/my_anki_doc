@@ -1,0 +1,64 @@
+.card {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+p {
+    font-size: 80%;
+}
+
+body {
+    font-family:  "Trebuchet MS", "Comic Neue +", Microsoft YaHei UI;
+    text-align: left;
+}
+
+
+.example {
+    font-family: "Comic Sans MS", "STXinwei";
+    text-align: left;
+    width: 100%;
+    overflow: hidden;
+}
+
+.comments {
+    margin-top: -5px;
+    color: orange;
+    white-space: pre;
+}
+
+.block {
+    display: inline-block;
+}
+
+.attention {
+    background-color: rgb(241, 238, 213);
+    margin-left: 2em;
+    padding:10px;
+    border-style: dotted solid; 
+    border: 2px solid;
+    border-color: rgb(250, 243, 180); 
+    border-radius: 5px;
+}
+
+.annotation {
+    margin-left: 5px;
+    border-left: 5px solid #E8EAED;
+    padding-left: 5px;
+    background-color: #FAF8F8;
+}
+
+.annotation p {
+    color: grey;
+}
+
+.focus {
+    font-family: Comic Sans MS, Kaiti;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    color: red;
+    overflow: hidden;
+}
