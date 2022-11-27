@@ -11,7 +11,7 @@ p {
 }
 
 body {
-    font-family:  "Trebuchet MS", "Comic Neue +", Microsoft YaHei UI;
+    font-family: "Trebuchet MS", "Comic Neue +", Microsoft YaHei UI;
     text-align: left;
 }
 
@@ -31,15 +31,17 @@ body {
 
 .block {
     display: inline-block;
+    text-align: center;
+    vertical-align: text-top;
 }
 
 .attention {
     background-color: rgb(241, 238, 213);
     margin-left: 2em;
-    padding:10px;
-    border-style: dotted solid; 
+    padding: 10px;
+    border-style: dotted solid;
     border: 2px solid;
-    border-color: rgb(250, 243, 180); 
+    border-color: rgb(250, 243, 180);
     border-radius: 5px;
 }
 
@@ -61,4 +63,20 @@ body {
     font-weight: bold;
     color: red;
     overflow: hidden;
+}
+
+table,
+th,
+td {
+    text-align: center;
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: lightgray;
 }
